@@ -17,6 +17,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/users', [\App\Http\Controllers\UserController::class, 'index']);
 
 Route::get('/json-test', function () {
     return response()->json([
@@ -24,4 +25,11 @@ Route::get('/json-test', function () {
         'updated' => true,
     ]);
 });
+
+Route::get('/dev', function () {
+   echo "aqui";
+   print "aqui";
+});
+
+Route::get('sample', [\App\Http\Controllers\IoC_DIController::class, 'index']);
 

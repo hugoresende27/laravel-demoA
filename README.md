@@ -23,3 +23,6 @@ Overall, Xdebug and PHPUnit are two powerful tools that can help developers writ
 
 
 - tut : https://betterstack.com/community/guides/testing/laravel-unit-testing/
+
+### Inversion of Control (IoC) &&  DI (Dependency Injection)
+- tut : https://www.youtube.com/watch?v=lUz22GUHpNA
