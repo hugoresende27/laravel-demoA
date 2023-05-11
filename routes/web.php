@@ -31,5 +31,10 @@ Route::get('/dev', function () {
    print "aqui";
 });
 
-Route::get('sample', [\App\Http\Controllers\IoC_DIController::class, 'index']);
+//Route::get('sample', [\App\Http\Controllers\IoC_DIController::class, 'index']);
+Route::get('sample', [\App\Http\Controllers\SampleController::class, 'index']);
+
+
+Route::get('form', [\App\Http\Controllers\FormController::class, 'index'])->name('form');
+Route::post('form', [\App\Http\Controllers\FormController::class, 'store']);
 
