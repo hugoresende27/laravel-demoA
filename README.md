@@ -26,3 +26,6 @@ Overall, Xdebug and PHPUnit are two powerful tools that can help developers writ
 
 ### Inversion of Control (IoC) &&  DI (Dependency Injection)
 - tut : https://www.youtube.com/watch?v=lUz22GUHpNA
+
+# todo
+- https://www.youtube.com/watch?v=_z9nzEUgro4&list=PLpzy7FIRqpGD5pN3-Y66YDtxJCYuGumFO

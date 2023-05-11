@@ -53,6 +53,17 @@
                                 <input class="form-control m-3" type="email" name="email" placeholder="email">
                             </div>
 
+                            <div class="form-group mt-4 mb-4">
+                                <div class="captcha">
+                                    <span >{!! captcha_img() !!}</span>
+                                    <button type="button" class="btn btn-danger" class="reload" id="reload">
+                                        ↻
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="form-group mb-4">
+                                <input id="captcha" type="text" class="form-control" placeholder="Enter Captcha" name="captcha">
+                            </div>
                             <div class="text-center">
                                 <input class="btn btn-success form-control m-3" type="submit" n>
                             </div>
@@ -70,3 +81,13 @@
     </body>
 </html>
 
+
+<script src="https://www.google.com/recaptcha/enterprise.js?render=6LeW-QAmAAAAAKxPUyPqQHYzxJOQ1vNGg3GJMQ0-"></script>
+<script>
+    grecaptcha.enterprise.ready(function() {
+
+        grecaptcha.enterprise.execute('', {action: 'login'}).then(function(token) {
+
+        });
+    });
+</script>

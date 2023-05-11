@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\CaptchaValidationController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -37,4 +39,8 @@ Route::get('sample', [\App\Http\Controllers\SampleController::class, 'index']);
 
 Route::get('form', [\App\Http\Controllers\FormController::class, 'index'])->name('form');
 Route::post('form', [\App\Http\Controllers\FormController::class, 'store']);
+
+Route::get('contact-form-captcha', [CaptchaValidationController::class, 'index']);
+Route::post('captcha-validation', [CaptchaValidationController::class, 'capthcaFormValidate']);
+Route::get('reload-captcha', [CaptchaValidationController::class, 'reloadCaptcha']);
 
