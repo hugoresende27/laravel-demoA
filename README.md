@@ -30,3 +30,6 @@ Overall, Xdebug and PHPUnit are two powerful tools that can help developers writ
 # Service Container 
 - https://laravel.com/docs/10.x/container
 - https://www.youtube.com/watch?v=_z9nzEUgro4&list=PLpzy7FIRqpGD5pN3-Y66YDtxJCYuGumFO
+
+# View Composer
+- https://www.youtube.com/watch?v=7QWZxjgvEQc&list=PLpzy7FIRqpGD5pN3-Y66YDtxJCYuGumFO&index=2

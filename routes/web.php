@@ -48,3 +48,7 @@ Route::get('reload-captcha', [CaptchaValidationController::class, 'reloadCaptcha
 Route::get('pay', [\App\Http\Controllers\PayOrderController::class, 'storeOld']);
 Route::get('pay-di', [\App\Http\Controllers\PayOrderController::class, 'storeExampleID']);
 
+
+Route::get('channels', [\App\Http\Controllers\ChannelController::class, 'index']);
+Route::get('post/create', [\App\Http\Controllers\PostController::class, 'create']);
+
