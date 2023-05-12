@@ -44,3 +44,7 @@ Route::get('contact-form-captcha', [CaptchaValidationController::class, 'index']
 Route::post('captcha-validation', [CaptchaValidationController::class, 'capthcaFormValidate']);
 Route::get('reload-captcha', [CaptchaValidationController::class, 'reloadCaptcha']);
 
+
+Route::get('pay', [\App\Http\Controllers\PayOrderController::class, 'storeOld']);
+Route::get('pay-di', [\App\Http\Controllers\PayOrderController::class, 'storeExampleID']);
+
