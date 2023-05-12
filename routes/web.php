@@ -52,3 +52,4 @@ Route::get('pay-di', [\App\Http\Controllers\PayOrderController::class, 'storeExa
 Route::get('channels', [\App\Http\Controllers\ChannelController::class, 'index']);
 Route::get('post/create', [\App\Http\Controllers\PostController::class, 'create']);
 
+Route::get('poly', [\App\Http\Controllers\SampleController::class, 'poly']);
