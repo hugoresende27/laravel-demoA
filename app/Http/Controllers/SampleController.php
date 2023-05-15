@@ -6,6 +6,8 @@ use App\Models\Post;
 use App\Models\User;
 use App\Models\Video;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Response;
+use Illuminate\Support\Str;
 
 class SampleController extends Controller
 {
@@ -58,5 +60,16 @@ class SampleController extends Controller
         echo "<hr>";
         var_dump($polyF);
 
+    }
+
+    public function macro()
+    {
+        echo Str::partNumber('123456789023423');
+        echo '<hr>';
+        echo Str::prefix('123456789023423', 'ABC-asd');
+        echo '<hr>';
+
+
+        dump( Response::errorJson('Huge Error Occur'));
     }
 }

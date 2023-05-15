@@ -53,3 +53,6 @@ Route::get('channels', [\App\Http\Controllers\ChannelController::class, 'index']
 Route::get('post/create', [\App\Http\Controllers\PostController::class, 'create']);
 
 Route::get('poly', [\App\Http\Controllers\SampleController::class, 'poly']);
+
+
+Route::get('macro', [\App\Http\Controllers\SampleController::class, 'macro']);
