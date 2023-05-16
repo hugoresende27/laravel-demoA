@@ -56,3 +56,4 @@ Route::get('poly', [\App\Http\Controllers\SampleController::class, 'poly']);
 
 
 Route::get('macro', [\App\Http\Controllers\SampleController::class, 'macro']);
+Route::get('pipes', [\App\Http\Controllers\PostController::class, 'index']);
