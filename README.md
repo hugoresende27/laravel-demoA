@@ -37,3 +37,9 @@ Overall, Xdebug and PHPUnit are two powerful tools that can help developers writ
 # Macros laravel
 - https://coderstape.com/blog/3-macroable-laravel-classes-full-list
 - tut : https://www.youtube.com/watch?v=7XqEJO-wt7s
+
+
+# Repositories
+- tut : https://www.youtube.com/watch?v=93ZhGkFIwbA
+- use phpstorm to extract interface for repository
+- interface called in constructor, artisan make:provider RepositoresServiceProvider

@@ -57,3 +57,12 @@ Route::get('poly', [\App\Http\Controllers\SampleController::class, 'poly']);
 
 Route::get('macro', [\App\Http\Controllers\SampleController::class, 'macro']);
 Route::get('pipes', [\App\Http\Controllers\PostController::class, 'index']);
+
+//repositories
+Route::get('customers', [\App\Http\Controllers\CustomerController::class, 'index']);
+Route::get('customers/{customerID}', [\App\Http\Controllers\CustomerController::class, 'show']);
+Route::get('customers/{customerID}/update', [\App\Http\Controllers\CustomerController::class, 'update']);
+Route::get('customers/{customerID}/delete', [\App\Http\Controllers\CustomerController::class, 'destroy']);
+
+
+
