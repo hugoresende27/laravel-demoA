@@ -23,7 +23,7 @@ Overall, Xdebug and PHPUnit are two powerful tools that can help developers writ
 
 
 - tut : https://betterstack.com/community/guides/testing/laravel-unit-testing/
-
+- advance course : https://www.youtube.com/watch?v=_z9nzEUgro4&list=PLpzy7FIRqpGD5pN3-Y66YDtxJCYuGumFO
 ### Inversion of Control (IoC) &&  DI (Dependency Injection)
 - tut : https://www.youtube.com/watch?v=lUz22GUHpNA
 
@@ -43,3 +43,7 @@ Overall, Xdebug and PHPUnit are two powerful tools that can help developers writ
 - tut : https://www.youtube.com/watch?v=93ZhGkFIwbA
 - use phpstorm to extract interface for repository
 - interface called in constructor, artisan make:provider RepositoresServiceProvider
+
+# Lazy Collection
+- tut : https://www.youtube.com/watch?v=yRpaMx3vvAw
+-  yield is not a function. It is a language construct in PHP that is used in the context of generators
