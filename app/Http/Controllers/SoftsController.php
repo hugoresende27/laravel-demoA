@@ -26,4 +26,9 @@ class SoftsController extends Controller
     {
         return Softs::where('id', $id)->delete();
     }
+
+    public function forceDelete(int $id)
+    {
+        return Softs::where('id', $id)->withTrashed()->first()->forceDelete();
+    }
 }

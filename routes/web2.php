@@ -20,3 +20,4 @@ Route::get('/softs', [\App\Http\Controllers\SoftsController::class, 'index']);
 Route::get('/softs/{id}', [\App\Http\Controllers\SoftsController::class, 'findWithTrashed']);
 Route::get('/softs-restore/{id}', [\App\Http\Controllers\SoftsController::class, 'restore']);
 Route::get('/softs-del/{id}', [\App\Http\Controllers\SoftsController::class, 'delete']);
+Route::get('/softs-del-force/{id}', [\App\Http\Controllers\SoftsController::class, 'forceDelete']);
